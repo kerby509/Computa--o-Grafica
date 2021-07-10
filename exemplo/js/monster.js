@@ -115,13 +115,13 @@ var criaMonstro = function(){
 	elements["pivoOmbropéEsq"] = pivoObro1Esq;
 
 	let péEsqp1 = new THREE.Mesh(new THREE.BoxGeometry(1,5, 1), new THREE.MeshBasicMaterial({color: 0x00ff00})); // 0,10,5
-	péEsqp1.position.x -= 0.2; //k
+	péEsqp1.position.x -= 0.2; //avanca mais perto
 	péEsqp1.position.y = -2; //rotacao
 	pivoObro1Esq.add(péEsqp1);
 
 
 	let ombropéDir = new THREE.Mesh(new THREE.SphereGeometry(1,32, 32), new THREE.MeshBasicMaterial({color: 0xffffff})); // 0,10,5
-	ombropéDir.position.x = 2.1; //k
+	ombropéDir.position.x = 2.1; //avancar mais perto
 	ombropéDir.position.y = -4.2; // rotacao 
 	tronco.add(ombropéDir);
 	let pivoObro2Dir = new THREE.Group();
