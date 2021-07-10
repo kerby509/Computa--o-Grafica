@@ -5,6 +5,7 @@
 	A -> Rotaciona pé direito
 	S -> Rotacao pé esquerdo
 	L -> Rotacao cotovelo esquerdo
+	P -> Rotacao cotovelo direito
 
 */
 
