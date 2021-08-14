@@ -262,7 +262,7 @@ var onKeyDown = function (e){
 
 
 	if (e.keyCode == 76){ // L para movimenta coto esq
-		if (elements["pivoOmbrocotoEsq1"].rotation.x < 0.1 || elements["pivoOmbrocotoEsq1"].rotation.x > 3.2)
+		if (elements["pivoOmbrocotoEsq1"].rotation.x < -2.8 || elements["pivoOmbrocotoEsq1"].rotation.x > 0.1)
         rotacaoPivoOmbcotoEsq*=-1;
 
 		
@@ -272,7 +272,7 @@ var onKeyDown = function (e){
 	}
 
 	if (e.keyCode == 80){ // P para movimenta coto direito
-		if (elements["pivoOmbrocotoDir2"].rotation.x < 0.1 || elements["pivoOmbrocotoDir2"].rotation.x > 3.2)
+		if (elements["pivoOmbrocotoDir2"].rotation.x < -2.8 || elements["pivoOmbrocotoDir2"].rotation.x > 0.1)
         rotacaoPivoOmbDir*=-1;
 
 		
